@@ -1,0 +1,13 @@
+[package]
+name = "rust-ratatui-guid-converter"
+version = "0.1.0"
+description = "demo-to-implement-rust-and-ratatui-for-guid-converter"
+authors = ["Rizki Saputra"]
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+color-eyre = "0.6.3"
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+uuid = { version = "1", features = ["v4"] }
